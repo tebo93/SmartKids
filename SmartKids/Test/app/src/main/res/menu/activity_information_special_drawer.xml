@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bookmarks"
+            android:icon="@drawable/ic_menu_bookmarks"
+            android:title="@string/action_bookmark" />
+        <item
+            android:id="@+id/nav_calendar"
+            android:icon="@drawable/ic_menu_calendar"
+            android:title="@string/action_calendar" />
+        <item
+            android:id="@+id/nav_search"
+            android:icon="@drawable/ic_menu_search"
+            android:title="@string/action_search" />
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/action_settings" />
+    </group>
+
+    <item android:title="About">
+        <menu>
+            <item
+                android:id="@+id/nav_about_app"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/action_about_app" />
+
+            <item
+                android:id="@+id/nav_about_360"
+                android:icon="@drawable/ic_menu_about"
+                android:title="@string/action_about_med" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/action_share" />
+        </menu>
+    </item>
+
+</menu>
